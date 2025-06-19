@@ -1,6 +1,6 @@
 # Setup
 
-```
+```bash
 scoop install pipx
 pipx ensurepath
 pipx install mpremote
@@ -17,6 +17,6 @@ twitch event websocket start-server --ip "10.0.0.XXX"
 ```
 
 # Test Twitch Events
-```
+```bash
 twitch event trigger channel.channel_points_custom_reward_redemption.add --transport=websocket
 ```
