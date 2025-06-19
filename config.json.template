@@ -1,0 +1,22 @@
+{
+    "wifi": {
+        "SSID": "<WiFi SSID>",
+        "password": "<WiFi Password>",
+        "attempts": 3,
+        "delay_in_msec": 200
+    },
+    "server": "wss://eventsub.wss.twitch.tv/ws",
+    "ssl": {
+        "ca": "Amazon Root CA 1.der",
+        "cert_reqs": 2
+    },
+    "socket_delay_ms": 5,
+    "twitch": {
+        "client_id": "<Twitch Client ID>",
+        "access_token": "<Twitch Access Token>",
+        "refresh_token": "<Twitch Refresh Token>",
+        "base_url": "https://api.twitch.tv/helix",
+        "broadcaster_user_id": "<Twitch User Id>",
+        "moderator_user_id": "<Twitch User Id>",
+    }
+}
